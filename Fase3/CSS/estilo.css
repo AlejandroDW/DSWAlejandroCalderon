@@ -1,10 +1,10 @@
 header {
-    height: 200%;
+    height: 50%;
     background-color: lime;
     text-align: center;
 }
 nav {
-    height: 50%;
+    height: 30%;
     background-color: lightgray;
 }
 #principal {
@@ -12,16 +12,18 @@ nav {
     align-items: stretch;
 }
 article {
-    width: 80%;
+    height: 50%;
+    width: 70%;
     background-color: lemonchiffon;
-    min-height: 80%;
+    
 }
 aside {
-    width: 50%;
+    height: 50%;
+    width: 30%;
     background-color: lightsalmon;
-    min-height: 80%;
+    
 }
 footer {
     background-color: lightseagreen;
-    height: 50%;
+    height: 20%;
 }
