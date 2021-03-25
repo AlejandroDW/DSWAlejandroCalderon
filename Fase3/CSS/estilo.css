@@ -1,12 +1,13 @@
 header {
-    height: 150%;
-    background-color: rgb(173, 230, 199);
+    height: 200%;
+    background-color: lime;
+    text-align: center;
 }
-#nav {
+nav {
     height: 50%;
     background-color: lightgray;
 }
-#principal{
+#principal {
     display: flex;
     align-items: stretch;
 }
@@ -16,11 +17,11 @@ article {
     min-height: 80%;
 }
 aside {
-    width: 20%;
+    width: 50%;
     background-color: lightsalmon;
     min-height: 80%;
 }
-footer{
+footer {
     background-color: lightseagreen;
     height: 50%;
 }
