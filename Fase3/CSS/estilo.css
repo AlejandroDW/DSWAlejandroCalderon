@@ -1,9 +1,9 @@
 #cabecera {
-    height: 10%;
-    background-color: lightblue;
+    height: 150%;
+    background-color: rgb(173, 230, 199);
 }
 #nav {
-    height: 5%;
+    height: 50%;
     background-color: lightgray;
 }
 #principal{
@@ -22,5 +22,5 @@
 }
 #pie{
     background-color: lightseagreen;
-    height: 5%;
+    height: 50%;
 }
