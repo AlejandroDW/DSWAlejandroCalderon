@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#contenedor{
+    width: 1300px;
+    height: 600px;
+    background-color: coral;
+    margin: 0.5em auto;
+    padding: 0.5em;
+}
+#header{
+    height: 20%;
+    background-color: cyan;
+    border-radius: 0.5em;
+    margin: 0.5em;
+}
+#nav{
+    height: 10%;
+    background-color:white;
+    border-radius: 0.5em;
+    margin: 0.5em;
+}
+#contenido{
+    height: 40%;
+    background: yellow;
+    border-radius: 0.5em;
+    margin: 0.5em;
+    
+}
+#footer{
+    height: 25%;
+    background: springgreen;
+    border-radius: 0.5em;
+    margin: 0.5em;
+}
+#section{
+    height: 95%;
+    width: 66%;
+    background: red;
+    border-radius: 0.5em;
+    margin: 0.5em;
+    float: left;
+}
+#aside{
+    height: 95%;
+    width: 30%;
+    background: royalblue;
+    border-radius: 0.5em;
+    margin: 0.5em;
+    float: right;
+    
+}
+#img-center {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+   
+}/*Con esta linea centramos la imagen*/

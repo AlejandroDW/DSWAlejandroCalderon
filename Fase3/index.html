@@ -1,47 +1,72 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Documento Prueba Fase3</title>
+    <title>Documento index</title>
     <link rel="stylesheet" href="CSS/estilo.css">
 
 </head>
+
 <body>
-    <header><h1>Sitio Web para el aprendizaje en el curso de Diseño de paginas Web Fase 3</h1></header>
-    <nav><h2>Menu de Navegacion</h2></nav>
-    <div id="principal">
-        <article>
-        <ul>
-            <li><b>Temas</b></li>
-            <ul>
-                <li><a href="#">Pagina 1</a></li>
-                <li><a href="#">Pagina 2</a></li>
-            </ul>
-            <li><b>Recursos Digitales</b></li>
-            <ul>
-                <li><a href="#">Recurso 1</a></li>
-                <li><a href="#">Recurso 2</a></li>
-            </ul>
-            <li><b>Aprendizaje</b></li>
-            <ul>
-                <li><a href="#">Actividad 1</a></li>
-                <li><a href="#">Actividad 2</a></li>
-            </ul>
-            </ul>
-        </article>
-        <aside><h3>En esta pagina vamos a tratar la actividada fase 3, con los temas de seleccionados en la fase anterior, etiquetas semánticas, listas y enlaces de HTML5 con el proposito de dar a conocer como usar hoja de estilo (CSS) externa aplicado a cada pagina, donde tambien se usara fondos diferentes y tipos de color en la fuente de cada bloque</h3>
-            <img id="img-center"src="Img/etiquetas.png" alt="etiquetas">
-            <h6>Recio García, J. A. (2016). HTML5, CSS3 y JQuery: curso práctico. RA-MA Editorial. https://elibro-ne
-                t.bibliotecavirtual.unad.edu.co/es/ereader/unad/106494?page=52</h6>
-        </aside>
+    <!-- En estas lineas se utilizo el elemento div, el cual sirve para realizar bloques en una pagina-->
+    <div id="contenedor">
+        <!-- Este es el contenedor de la pagina y sobre este, se va a insertar las etiquetas semanticas basicas mas usadas para hacer la pag web -->
+        <div id="header">
+            <img id="img-center" src="Img/logounad2.png" width="35%" heigth="10%" alt="Logo UNAD">
+            <h1> Diseño de Sitio Web Fase 3</h1>
         </div>
-    <footer><h6>Alejandro Calderon Rios<br>
+        <div id="nav">
+            <h2>Menu de la Actividad</h2>
+        </div>
+        <div id="principal">
+            <div id="section">
+                <article class="articulo">
+                    <ul>
+                        <li><b>Temas</li>
+                        <ul>
+                            <a href="pagina1.html">Pagina 1</a><br>
+                            <a href="pagina2.html">Pagina 2</a><br>
+                            <a href="pagina3.html">Pagina 3</a>
+                            
+                        </ul>
+                        <li><b>Recursos Digitales</b></li>
+                        <ul>
+                            <a href="#">Recurso 1</a><br>
+                            <a href="#">Recurso 2</a>
+                        </ul>
+                        <li><b>Aprendizaje</b></li>
+                        <ul>
+                            <a href="#">Actividad 1</a><br>
+                            <a href="#">Actividad 2</a>
+                        </ul>
+                    </b>
+                    </ul>
+                </article>
+            </div>
+            <div id="aside">
+                <p><b>En esta actividad vamos a continuar con los temas de seleccionados en la fase anterior, los cuales
+                    son:
+                    Etiquetas Semánticas, listas y Enlaces de HTML5. Donde el proposito es dar a conocer como aplicar
+                    primero que todo su estructura con las etiquetas mas importantes, como aplicar una hoja de estilo
+                    (CSS)
+                    externa ejecutando en cada pagina, fondos y colores a los tipos de fuente.
+                    </b>
+                </p>
+            </div>
+        </div>
+        <div id="footer">
+            <h6>Alejandro Calderon Rios<br>
                 Estudiante del Programa de Ingenieria de Sistemas<br>
                 Curso Diseño de Paginas Web<br>
-                Tutor Mario Luis Avila</h6></footer>
-                 <!-- Leyenda, desripcion etc..-->
-        
+                Tutor Mario Luis Avila</h6>
+
+        </div>
+    </div>
+    <!-- Leyenda, desripcion etc..-->
+
 </body>
+
 </html>
