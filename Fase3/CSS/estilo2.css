@@ -20,7 +20,7 @@
     padding: 0;
 }
 #header {
-    height: 20%;
+    height: 25%;
     background-color: rgb(0, 247, 255);
     /*text-align:left;*/
     color: orangered;
@@ -36,7 +36,7 @@
     margin: 0.5em;
 }
 #principal {
-    height: 60%;
+    height: 59%;
     background:white;
     border-radius: 0.5em;
     margin: 0.5em;
@@ -80,7 +80,7 @@
 }
 
 #footer{
-    height: 10%;
+    height: 8%;
     background:gray;
     color: navy;
     border-radius: 0.5em;
