@@ -63,10 +63,9 @@
     
 }
 .articulo{
-    width: auto;
-    height: auto;
-    color:navy;
-    text-align: justify;
+    display: float;
+    margin-left: auto;
+     margin-right:auto;
 }
 #img-center {
     display: flex;
