@@ -17,30 +17,77 @@
         </h1>
 
     </header>
-    <nav>
-Mi barra de navegacion
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Navbar</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Link</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Dropdown
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
     </nav>
-    <main>
-        <section>
-            <article>
-                <p>
-                    ¿Defina que son listas?
-•	Son las que permiten crear conjuntos de elementos en forma de lista.
-•	Son guiones o números que ayudan a mantener un orden
-•	Sirven para dar organización a una lista de elementos.
-                </p>
-            </article>
-            <article>
-               
+    <main class="container">
+        <div class="row">
+            <section class="col-8">
+                <article>
+                    <p>
+                        ¿Defina que son listas?
+                        • Son las que permiten crear conjuntos de elementos en forma de lista.
+                        • Son guiones o números que ayudan a mantener un orden
+                        • Sirven para dar organización a una lista de elementos.
+                    </p>
+                </article>
+                <iframe
+                    src="https://docs.google.com/forms/d/e/1FAIpQLSenaaukNI1r10kvdiVw9D7RMWU5Dls19sUyjCT9nKK64yEwxg/viewform?embedded=true"
+                    width="640" height="1776" frameborder="0" marginheight="0" marginwidth="0">Cargando…</iframe>
+                <article>
 
-            </article>
-        </section>
-        <aside>
+                </article>
+            </section>
+            <aside class="col-4">
+                <iframe id="timeline"
+                    src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FUniversidadUNAD%2F&tabs=timeline&width=340&height=500&small_header=true&adapt_container_width=true&hide_cover=false&show_facepile=true&appId"
+                    width="420" height="1000" style="border:none;overflow:hidden" scrolling="no" frameborder="0"
+                    allowfullscreen="true"
+                    allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
 
-        </aside>
+            </aside>
+        </div>
     </main>
     <footer>
-
+        Mi pie de pagina
     </footer>
 </body>
 
