@@ -1,9 +1,9 @@
 #contenedor{
     width: 1300px;
     height: 600px;
-    background-color: coral;
-    margin: 0.5em auto;
-    padding: 0.5em;
+    background-color:white;
+    /*margin: 0.5em auto;
+    padding: 0.5em;*/
 }
 #navegar{
     text-align: left;
@@ -21,17 +21,17 @@
 }
 #header {
     height: 30%;
-    background-color: rgb(0, 247, 255);
+    background-color: white;
     /*text-align:left;*/
-    color: orangered;
+    color: black;
     border-radius: 0.5em;
     margin: 0.5em;
     
 }
 #nav {
     height: 6%;
-    background-color:gray;
-    color:blue;
+    background-color: black;
+    color: white;
     border-radius: 0.5em;
     margin: 0.5em;
 }
@@ -45,7 +45,7 @@
 #section {
     height: 90%;
     width: 55%;
-    background:orange;
+    background: white;
     float: left;
     border-radius: 0.5em;
     margin: 0.5em;
@@ -53,7 +53,7 @@
 #aside {
     height: 90%;
     width: 40%;
-    background-color:olivedrab;
+    background-color: white;
     text-align:justify;
     float:right;
     border-radius: 0.5em;
@@ -65,7 +65,7 @@
 .articulo{
     width: auto;
     height: auto;
-    color:navy;
+    color:black;
     text-align: justify;
 }
 #img-center {
@@ -81,9 +81,8 @@
 
 #footer{
     height: 10%;
-    background:gray;
-    color: navy;
+    background:white;
+    color:black;
     border-radius: 0.5em;
     margin: 0.5em;
 }
-
